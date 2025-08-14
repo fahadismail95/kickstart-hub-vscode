@@ -248,10 +248,10 @@ Found a bug? Want to request a framework? We'd love your input!
 
 ## 📈 Stats & Recognition
 
-![VS Code Marketplace](https://img.shields.io/vscode-marketplace/v/Fahad-Ismail.kickstart-hub?style=flat-square&label=VS%20Code%20Marketplace&logo=visual-studio-code)
-![Downloads](https://img.shields.io/vscode-marketplace/d/Fahad-Ismail.kickstart-hub?style=flat-square&label=Downloads&logo=microsoft)
-![Rating](https://img.shields.io/vscode-marketplace/r/Fahad-Ismail.kickstart-hub?style=flat-square&label=Rating&logo=visual-studio-code)
-![GitHub Stars](https://img.shields.io/github/stars/fhaadismail95/kickstart-hub?style=flat-square&label=GitHub%20Stars&logo=github)
+![VS Code Marketplace](https://img.shields.io/vscode-marketplace/v/Fahad-Ismail.kickstarthub?style=flat-square&label=VS%20Code%20Marketplace&logo=visual-studio-code)
+![Downloads](https://img.shields.io/vscode-marketplace/d/Fahad-Ismail.kickstarthub?style=flat-square&label=Downloads&logo=microsoft)
+![Rating](https://img.shields.io/vscode-marketplace/r/Fahad-Ismail.kickstarthub?style=flat-square&label=Rating&logo=visual-studio-code)
+![GitHub Stars](https://img.shields.io/github/stars/fahadismail95/kickstart-hub-vscode?style=flat-square&label=GitHub%20Stars&logo=github)
 
 ---
 
