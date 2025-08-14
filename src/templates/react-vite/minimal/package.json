@@ -1,0 +1,14 @@
+{
+	"name": "react-vite-minimal",
+	"version": "1.0.0",
+	"scripts": {
+		"dev": "vite"
+	},
+	"dependencies": {
+		"react": "^18.0.0",
+		"react-dom": "^18.0.0"
+	},
+	"devDependencies": {
+		"vite": "^4.0.0"
+	}
+}

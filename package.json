@@ -1,0 +1,81 @@
+{
+	"name": "kickstarthub",
+	"publisher": "Fahad-Ismail",
+	"displayName": "Kickstart Hub",
+	"description": "Kickstart any project codebase",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.88.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"keywords": [
+		"boilerplate",
+		"scaffold",
+		"generator",
+		"template",
+		"project-starter",
+		"framework",
+		"react",
+		"vue",
+		"angular",
+		"node",
+		"express",
+		"nextjs",
+		"nuxt",
+		"django",
+		"flask",
+		"laravel",
+		"spring",
+		"dotnet",
+		"typescript",
+		"javascript",
+		"python",
+		"java",
+		"csharp",
+		"php",
+		"kickstart",
+		"productivity",
+		"developer-tools",
+		"project-setup",
+		"best-practices",
+		"scaffolding",
+		"starter-kit",
+		"quickstart",
+		"initialization",
+		"setup-automation"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/fahadismail95/kickstart-hub-vscode"
+	},
+	"activationEvents": [
+		"onCommand:kickstarthub.createProject"
+	],
+	"main": "./src/extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "kickstarthub.createProject",
+				"title": "KickstartHub: Create New Project"
+			}
+		]
+	},
+	"scripts": {
+		"lint": "eslint .",
+		"pretest": "npm run lint",
+		"test": "vscode-test"
+	},
+	"devDependencies": {
+		"@types/mocha": "^10.0.10",
+		"@types/node": "22.x",
+		"@types/vscode": "^1.88.0",
+		"@vscode/test-cli": "^0.0.11",
+		"@vscode/test-electron": "^2.5.2",
+		"eslint": "^9.32.0"
+	},
+	"dependencies": {
+		"fs-extra": "^11.3.1"
+	}
+}

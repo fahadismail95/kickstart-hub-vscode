@@ -1,0 +1,916 @@
+{
+	"version": "1.0.0",
+	"lastUpdated": "2025-08-12T10:00:00Z",
+	"templates": {
+		"react-vite": {
+			"name": "React + Vite",
+			"description": "Modern React with Vite bundler",
+			"icon": "⚛️",
+			"tags": ["javascript", "frontend", "spa"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Frontend Frameworks",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"react-nextjs": {
+			"name": "React + Next.js",
+			"description": "Full-stack React framework with SSR",
+			"icon": "▲",
+			"tags": ["javascript", "frontend", "fullstack", "ssr"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Frontend Frameworks",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"vue": {
+			"name": "Vue.js",
+			"description": "Progressive JavaScript framework",
+			"icon": "🟢",
+			"tags": ["javascript", "frontend", "spa"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Frontend Frameworks",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"vue-nuxt": {
+			"name": "Vue + Nuxt.js",
+			"description": "Vue.js framework with SSR",
+			"icon": "💚",
+			"tags": ["javascript", "frontend", "fullstack", "ssr"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Frontend Frameworks",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"angular": {
+			"name": "Angular",
+			"description": "Platform for building mobile and desktop web applications",
+			"icon": "🅰️",
+			"tags": ["typescript", "frontend", "spa", "enterprise"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Frontend Frameworks",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"svelte-sveltekit": {
+			"name": "Svelte + SvelteKit",
+			"description": "Cybernetically enhanced web apps",
+			"icon": "🧡",
+			"tags": ["javascript", "frontend", "spa", "performance"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Frontend Frameworks",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"solidjs": {
+			"name": "Solid.js",
+			"description": "Simple and performant reactivity for building user interfaces",
+			"icon": "🎯",
+			"tags": ["javascript", "frontend", "performance"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Frontend Frameworks",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"astro": {
+			"name": "Astro",
+			"description": "Build fast websites with less client-side JS",
+			"icon": "🚀",
+			"tags": ["javascript", "frontend", "static", "performance"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Frontend Frameworks",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"remix": {
+			"name": "Remix",
+			"description": "Full stack web framework focused on web standards",
+			"icon": "💿",
+			"tags": ["javascript", "frontend", "fullstack"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Frontend Frameworks",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"qwik": {
+			"name": "Qwik",
+			"description": "Resumable framework for instant loading web apps",
+			"icon": "⚡",
+			"tags": ["javascript", "frontend", "performance"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Frontend Frameworks",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"express-nodejs": {
+			"name": "Express.js (Node.js)",
+			"description": "Fast, unopinionated web framework for Node.js",
+			"icon": "🟢",
+			"tags": ["javascript", "backend", "api", "microservice"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Backend Frameworks",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"fastify-nodejs": {
+			"name": "Fastify (Node.js)",
+			"description": "Fast and low overhead web framework for Node.js",
+			"icon": "⚡",
+			"tags": ["javascript", "backend", "api", "performance"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Backend Frameworks",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"nestjs-nodejs": {
+			"name": "NestJS (Node.js)",
+			"description": "Progressive Node.js framework for scalable server-side applications",
+			"icon": "🐱",
+			"tags": ["typescript", "backend", "api", "enterprise"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Backend Frameworks",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"koa-nodejs": {
+			"name": "Koa.js (Node.js)",
+			"description": "Expressive middleware for Node.js",
+			"icon": "🥥",
+			"tags": ["javascript", "backend", "api"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Backend Frameworks",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"hapi-nodejs": {
+			"name": "Hapi.js (Node.js)",
+			"description": "Rich framework for building applications and services",
+			"icon": "🎈",
+			"tags": ["javascript", "backend", "api"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Backend Frameworks",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"django-python": {
+			"name": "Django",
+			"description": "High-level Python web framework",
+			"icon": "🐍",
+			"tags": ["python", "backend", "fullstack", "orm"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Python Frameworks",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"fastapi-python": {
+			"name": "FastAPI",
+			"description": "Modern, fast web framework for building APIs with Python",
+			"icon": "⚡",
+			"tags": ["python", "backend", "api", "async"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Python Frameworks",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"flask-python": {
+			"name": "Flask",
+			"description": "Lightweight WSGI web application framework",
+			"icon": "🌶️",
+			"tags": ["python", "backend", "microservice"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Python Frameworks",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"tornado-python": {
+			"name": "Tornado",
+			"description": "Python web framework and asynchronous networking library",
+			"icon": "🌪️",
+			"tags": ["python", "backend", "async"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Python Frameworks",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"quart-python": {
+			"name": "Quart",
+			"description": "Python ASGI web microframework with Flask API",
+			"icon": "🥛",
+			"tags": ["python", "backend", "async"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Python Frameworks",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"sanic-python": {
+			"name": "Sanic",
+			"description": "Async Python web server/framework",
+			"icon": "💨",
+			"tags": ["python", "backend", "async", "performance"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Python Frameworks",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"spring-boot-java": {
+			"name": "Spring Boot",
+			"description": "Java-based framework for microservices",
+			"icon": "☕",
+			"tags": ["java", "backend", "enterprise", "microservice"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Java Frameworks",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"quarkus-java": {
+			"name": "Quarkus",
+			"description": "Kubernetes Native Java stack",
+			"icon": "🔺",
+			"tags": ["java", "backend", "cloud", "microservice"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Java Frameworks",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"micronaut-java": {
+			"name": "Micronaut",
+			"description": "Modern, JVM-based framework for microservices",
+			"icon": "🦠",
+			"tags": ["java", "backend", "microservice"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Java Frameworks",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"vertx-java": {
+			"name": "Vert.x",
+			"description": "Reactive applications on the JVM",
+			"icon": "🌀",
+			"tags": ["java", "backend", "reactive"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Java Frameworks",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"aspnet-core-csharp": {
+			"name": "ASP.NET Core",
+			"description": "Cross-platform framework for modern web apps",
+			"icon": "🔷",
+			"tags": ["csharp", "backend", "api", "enterprise"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "C# / .NET Frameworks",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"blazor-csharp": {
+			"name": "Blazor",
+			"description": "Build interactive web UIs using C#",
+			"icon": "🔥",
+			"tags": ["csharp", "frontend", "spa"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "C# / .NET Frameworks",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"maui-csharp": {
+			"name": "MAUI",
+			"description": "Multi-platform App UI framework",
+			"icon": "📱",
+			"tags": ["csharp", "mobile", "desktop"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "C# / .NET Frameworks",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"laravel-php": {
+			"name": "Laravel",
+			"description": "PHP web application framework",
+			"icon": "🐘",
+			"tags": ["php", "backend", "fullstack", "orm"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "PHP Frameworks",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"symfony-php": {
+			"name": "Symfony",
+			"description": "High-performance PHP framework",
+			"icon": "🎼",
+			"tags": ["php", "backend", "enterprise"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "PHP Frameworks",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"codeigniter-php": {
+			"name": "CodeIgniter",
+			"description": "Small footprint PHP framework",
+			"icon": "🔥",
+			"tags": ["php", "backend"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "PHP Frameworks",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"slim-php": {
+			"name": "Slim Framework",
+			"description": "PHP micro framework for APIs and web applications",
+			"icon": "💨",
+			"tags": ["php", "backend", "api", "microservice"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "PHP Frameworks",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"cakephp-php": {
+			"name": "CakePHP",
+			"description": "Rapid development framework for PHP",
+			"icon": "🍰",
+			"tags": ["php", "backend", "orm"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "PHP Frameworks",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"yii-php": {
+			"name": "Yii Framework",
+			"description": "High-performance PHP framework",
+			"icon": "🟡",
+			"tags": ["php", "backend", "enterprise"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "PHP Frameworks",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"rails-ruby": {
+			"name": "Ruby on Rails",
+			"description": "Server-side web application framework",
+			"icon": "💎",
+			"tags": ["ruby", "backend", "fullstack", "orm"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Ruby Frameworks",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"sinatra-ruby": {
+			"name": "Sinatra",
+			"description": "DSL for quickly creating web applications",
+			"icon": "🎤",
+			"tags": ["ruby", "backend", "microservice"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Ruby Frameworks",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"hanami-ruby": {
+			"name": "Hanami",
+			"description": "Modern web framework for Ruby",
+			"icon": "🌸",
+			"tags": ["ruby", "backend"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Ruby Frameworks",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"gin-go": {
+			"name": "Gin",
+			"description": "HTTP web framework for Go",
+			"icon": "🍸",
+			"tags": ["go", "backend", "api", "performance"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Go Frameworks",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"echo-go": {
+			"name": "Echo",
+			"description": "High performance, minimalist Go web framework",
+			"icon": "📢",
+			"tags": ["go", "backend", "api"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Go Frameworks",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"fiber-go": {
+			"name": "Fiber",
+			"description": "Express inspired web framework for Go",
+			"icon": "🚀",
+			"tags": ["go", "backend", "api", "performance"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Go Frameworks",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"chi-go": {
+			"name": "Chi",
+			"description": "Lightweight, composable router for Go",
+			"icon": "🔄",
+			"tags": ["go", "backend", "api"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Go Frameworks",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"beego-go": {
+			"name": "Beego",
+			"description": "Open-source, high-performance web framework",
+			"icon": "🐝",
+			"tags": ["go", "backend", "fullstack"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Go Frameworks",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"actix-web-rust": {
+			"name": "Actix Web",
+			"description": "Powerful, pragmatic web framework for Rust",
+			"icon": "🦀",
+			"tags": ["rust", "backend", "api", "performance"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Rust Frameworks",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"rocket-rust": {
+			"name": "Rocket",
+			"description": "Web framework for Rust that makes it simple to write fast web applications",
+			"icon": "🚀",
+			"tags": ["rust", "backend", "api"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Rust Frameworks",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"warp-rust": {
+			"name": "Warp",
+			"description": "Super-easy, composable web server framework",
+			"icon": "⚡",
+			"tags": ["rust", "backend", "api"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Rust Frameworks",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"axum-rust": {
+			"name": "Axum",
+			"description": "Ergonomic and modular web framework built with Tokio",
+			"icon": "🪓",
+			"tags": ["rust", "backend", "api", "async"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Rust Frameworks",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"react-native": {
+			"name": "React Native",
+			"description": "Create native apps using React",
+			"icon": "📱",
+			"tags": ["javascript", "mobile", "cross-platform"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Mobile Development",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"flutter-dart": {
+			"name": "Flutter",
+			"description": "UI toolkit for building natively compiled applications",
+			"icon": "🐦",
+			"tags": ["dart", "mobile", "cross-platform"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Mobile Development",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"ionic": {
+			"name": "Ionic",
+			"description": "Cross-platform mobile app development",
+			"icon": "⚡",
+			"tags": ["javascript", "mobile", "cross-platform"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Mobile Development",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"xamarin-csharp": {
+			"name": "Xamarin",
+			"description": "Cross-platform mobile development with C#",
+			"icon": "🔷",
+			"tags": ["csharp", "mobile", "cross-platform"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Mobile Development",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"kotlin-multiplatform": {
+			"name": "Kotlin Multiplatform",
+			"description": "Share code between Android and iOS",
+			"icon": "🤖",
+			"tags": ["kotlin", "mobile", "cross-platform"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Mobile Development",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"swiftui-ios": {
+			"name": "Swift UI (iOS)",
+			"description": "Native iOS app development",
+			"icon": "🍎",
+			"tags": ["swift", "mobile", "ios"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Mobile Development",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"android-kotlin": {
+			"name": "Android (Kotlin)",
+			"description": "Native Android app development",
+			"icon": "🤖",
+			"tags": ["kotlin", "mobile", "android"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Mobile Development",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"electron": {
+			"name": "Electron",
+			"description": "Build cross-platform desktop apps with web technologies",
+			"icon": "⚛️",
+			"tags": ["javascript", "desktop", "cross-platform"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Desktop Development",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"tauri-rust": {
+			"name": "Tauri",
+			"description": "Build smaller, faster, and more secure desktop applications",
+			"icon": "🦀",
+			"tags": ["rust", "desktop", "cross-platform"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Desktop Development",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"qt-cpp": {
+			"name": "Qt (C++)",
+			"description": "Cross-platform application development framework",
+			"icon": "🔧",
+			"tags": ["cpp", "desktop", "cross-platform"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Desktop Development",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"wpf-csharp": {
+			"name": "WPF (.NET)",
+			"description": "Windows Presentation Foundation",
+			"icon": "🖥️",
+			"tags": ["csharp", "desktop", "windows"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Desktop Development",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"winui3-csharp": {
+			"name": "WinUI 3",
+			"description": "Native Windows app development",
+			"icon": "🪟",
+			"tags": ["csharp", "desktop", "windows"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Desktop Development",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"javafx-java": {
+			"name": "JavaFX",
+			"description": "Platform for creating desktop applications",
+			"icon": "☕",
+			"tags": ["java", "desktop", "cross-platform"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Desktop Development",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"unity-csharp": {
+			"name": "Unity (C#)",
+			"description": "2D and 3D game development platform",
+			"icon": "🎮",
+			"tags": ["csharp", "game", "3d", "2d"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Game Development",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"unreal-cpp": {
+			"name": "Unreal Engine (C++)",
+			"description": "Advanced real-time 3D creation tool",
+			"icon": "🎯",
+			"tags": ["cpp", "game", "3d"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Game Development",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"godot-gdscript": {
+			"name": "Godot (GDScript)",
+			"description": "Free and open source game engine",
+			"icon": "🤖",
+			"tags": ["gdscript", "game", "2d", "3d"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Game Development",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"phaser-javascript": {
+			"name": "Phaser.js",
+			"description": "2D game framework for HTML5",
+			"icon": "👾",
+			"tags": ["javascript", "game", "2d", "web"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Game Development",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"threejs-javascript": {
+			"name": "Three.js",
+			"description": "3D library for JavaScript",
+			"icon": "🌐",
+			"tags": ["javascript", "game", "3d", "web"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Game Development",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"pygame-python": {
+			"name": "Pygame (Python)",
+			"description": "Set of Python modules for writing games",
+			"icon": "🐍",
+			"tags": ["python", "game", "2d"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Game Development",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"jupyter-python": {
+			"name": "Jupyter Notebook",
+			"description": "Interactive computing environment",
+			"icon": "📊",
+			"tags": ["python", "data-science", "notebook"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Data Science & AI",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"streamlit-python": {
+			"name": "Streamlit",
+			"description": "Turn data scripts into shareable web apps",
+			"icon": "🌊",
+			"tags": ["python", "data-science", "web"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Data Science & AI",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"gradio-python": {
+			"name": "Gradio",
+			"description": "Build machine learning demos and web applications",
+			"icon": "🎨",
+			"tags": ["python", "ml", "web"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Data Science & AI",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"dash-python": {
+			"name": "Dash (Plotly)",
+			"description": "Analytical web applications in Python",
+			"icon": "📈",
+			"tags": ["python", "data-science", "web"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Data Science & AI",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"fastai-python": {
+			"name": "FastAI",
+			"description": "Deep learning library",
+			"icon": "🧠",
+			"tags": ["python", "ml", "deep-learning"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Data Science & AI",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"pytorch-python": {
+			"name": "PyTorch",
+			"description": "Machine learning framework",
+			"icon": "🔥",
+			"tags": ["python", "ml", "deep-learning"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Data Science & AI",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"tensorflow-python": {
+			"name": "TensorFlow",
+			"description": "End-to-end open source platform for machine learning",
+			"icon": "🧮",
+			"tags": ["python", "ml", "deep-learning"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Data Science & AI",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"gatsby-react": {
+			"name": "Gatsby",
+			"description": "React-based static site generator",
+			"icon": "🚀",
+			"tags": ["javascript", "static", "react", "jamstack"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Static Site Generators",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"nextjs-static": {
+			"name": "Next.js (Static)",
+			"description": "Static site generation with Next.js",
+			"icon": "▲",
+			"tags": ["javascript", "static", "react", "jamstack"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Static Site Generators",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"jekyll-ruby": {
+			"name": "Jekyll",
+			"description": "Transform plain text into static websites",
+			"icon": "💎",
+			"tags": ["ruby", "static", "blog"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Static Site Generators",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"hugo-go": {
+			"name": "Hugo",
+			"description": "Fast static site generator",
+			"icon": "⚡",
+			"tags": ["go", "static", "blog"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Static Site Generators",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"eleventy-javascript": {
+			"name": "11ty (Eleventy)",
+			"description": "Simpler static site generator",
+			"icon": "🎈",
+			"tags": ["javascript", "static", "jamstack"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Static Site Generators",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"vuepress-vue": {
+			"name": "VuePress",
+			"description": "Vue-powered static site generator",
+			"icon": "📖",
+			"tags": ["javascript", "static", "vue", "docs"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Static Site Generators",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"docusaurus-react": {
+			"name": "Docusaurus",
+			"description": "Build, deploy, and maintain open source project websites",
+			"icon": "🦕",
+			"tags": ["javascript", "static", "react", "docs"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Static Site Generators",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"gitbook": {
+			"name": "GitBook",
+			"description": "Documentation platform",
+			"icon": "📚",
+			"tags": ["markdown", "static", "docs"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Static Site Generators",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"docker": {
+			"name": "Docker",
+			"description": "Containerization platform",
+			"icon": "🐳",
+			"tags": ["devops", "containers", "infrastructure"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "DevOps & Infrastructure",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"kubernetes": {
+			"name": "Kubernetes",
+			"description": "Container orchestration platform",
+			"icon": "☸️",
+			"tags": ["devops", "containers", "orchestration"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "DevOps & Infrastructure",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"terraform": {
+			"name": "Terraform",
+			"description": "Infrastructure as Code",
+			"icon": "🏗️",
+			"tags": ["devops", "iac", "cloud"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "DevOps & Infrastructure",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"ansible": {
+			"name": "Ansible",
+			"description": "Configuration management and automation",
+			"icon": "🤖",
+			"tags": ["devops", "automation", "configuration"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "DevOps & Infrastructure",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"helm": {
+			"name": "Helm",
+			"description": "Package manager for Kubernetes",
+			"icon": "⎈",
+			"tags": ["devops", "kubernetes", "packaging"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "DevOps & Infrastructure",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"jest-javascript": {
+			"name": "Jest (JavaScript)",
+			"description": "JavaScript testing framework",
+			"icon": "🃏",
+			"tags": ["javascript", "testing", "unit-test"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Testing Frameworks",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"cypress-javascript": {
+			"name": "Cypress",
+			"description": "End-to-end testing framework",
+			"icon": "🌲",
+			"tags": ["javascript", "testing", "e2e"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Testing Frameworks",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"playwright-javascript": {
+			"name": "Playwright",
+			"description": "Cross-browser end-to-end testing",
+			"icon": "🎭",
+			"tags": ["javascript", "testing", "e2e"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Testing Frameworks",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"pytest-python": {
+			"name": "PyTest (Python)",
+			"description": "Python testing framework",
+			"icon": "🧪",
+			"tags": ["python", "testing", "unit-test"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Testing Frameworks",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"junit-java": {
+			"name": "JUnit (Java)",
+			"description": "Unit testing framework for Java",
+			"icon": "☕",
+			"tags": ["java", "testing", "unit-test"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Testing Frameworks",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		},
+		"nunit-csharp": {
+			"name": "NUnit (C#)",
+			"description": "Unit testing framework for .NET",
+			"icon": "🔷",
+			"tags": ["csharp", "testing", "unit-test"],
+			"scopes": ["minimal", "standard", "enterprise"],
+			"category": "Testing Frameworks",
+			"version": "",
+			"lastUpdated": "2025-08-08T12:15:00Z"
+		}
+	}
+}
